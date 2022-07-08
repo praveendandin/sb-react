@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&family=Vollkorn:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&family=Vollkorn:wght@400;500;600;700&display=swap');
+
+
+/* font family */
+.font-josefinSans { font-family: var(--font-josefinSans); }
+.font-josefinSlab {font-family: var(--font-josefinSlab) }
+.font-NotoSans {font-family: var(--font-NotoSans);}
+.font-Roboto {font-family: var(--font-Roboto);}
+.font-Vollkorn {font-family: var(--font-Vollkorn);}
+
+/* font weight styles */
+.font-weight-bold { font-weight: bold;}
+.font-weight-normal {font-weight: normal;}
+.font-weight-300 {font-weight: 300; }
+.font-weight-400 {font-weight: 400; }
+.font-weight-500 {font-weight: 500; }
+.font-weight-600 {font-weight: 600; }
+.font-weight-700 {font-weight: 700; }
+.font-weight-800 {font-weight: 800; }
+.font-weight-900 {font-weight: 900; }
+
+
+    .text-9 { font-size: 9px; }
+    .text-10 { font-size: 10px; }
+    .text-11 { font-size: 11px; }
+    .text-12 { font-size: 12px; }
+    .text-13 { font-size: 13px; }
+    .text-14 { font-size: 14px; }
+    .text-15 { font-size: 15px; }
+    .text-16 { font-size: 16px; }
+    .text-18 { font-size: 18px; }
+    .text-20 { font-size: 20px; }
+    .text-22 { font-size: 22px; }
+    .text-24 { font-size: 24px; }
+    .text-26 { font-size: 26px; }
+    .text-28 { font-size: 28px; }
+    .text-30 { font-size: 30px; }
+    .text-32 { font-size: 32px; }
+    .text-34 { font-size: 34px; }
+    .text-36 { font-size: 36px; }
+    .text-38 { font-size: 36px; }
+    .text-40 { font-size: 40px; }
+    .text-42 { font-size: 42px; }
+    .text-44 { font-size: 44px; }
+    .text-46 { font-size: 46px; }
+    .text-48 { font-size: 48px; }
+    .text-50 { font-size: 50px; }
+    .text-56 { font-size: 56px; }
+    .text-60 { font-size: 56px; }
+    .text-72 { font-size: 72px; }
+
+
+@media (min-width:992px) {
+/* font-size */
+    .text-md-9 { font-size: 9px; }
+    .text-md-10 { font-size: 10px; }
+    .text-md-11 { font-size: 11px; }
+    .text-md-12 { font-size: 12px; }
+    .text-md-13 { font-size: 13px; }
+    .text-md-14 { font-size: 14px; }
+    .text-md-15 { font-size: 15px; }
+    .text-md-16 { font-size: 16px; }
+    .text-md-18 { font-size: 18px; }
+    .text-md-20 { font-size: 20px; }
+    .text-md-22 { font-size: 22px; }
+    .text-md-24 { font-size: 24px; }
+    .text-md-26 { font-size: 26px; }
+    .text-md-28 { font-size: 28px; }
+    .text-md-30 { font-size: 30px; }
+    .text-md-32 { font-size: 32px; }
+    .text-md-34 { font-size: 34px; }
+    .text-md-36 { font-size: 36px; }
+    .text-md-38 { font-size: 36px; }
+    .text-md-40 { font-size: 40px; }
+    .text-md-42 { font-size: 42px; }
+    .text-md-44 { font-size: 44px; }
+    .text-md-46 { font-size: 46px; }
+    .text-md-48 { font-size: 48px; }
+    .text-md-50 { font-size: 50px; }
+    .text-md-56 { font-size: 56px; }
+    .text-md-60 { font-size: 56px; }
+    .text-md-72 { font-size: 72px; }
+
+}
+

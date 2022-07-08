@@ -1,0 +1,71 @@
+/* card styles */
+.card-main {
+  max-width: 310px;
+  margin: 0 20px;
+}
+.card-items {
+  max-height: 310px;
+}
+
+.card-main::before,
+.card-main::after,
+.card-items::before,
+.card-items::after {
+  content: "";
+  position: absolute;
+  border-width: 3px;
+  border-style: solid;
+  border-color: transparent;
+  z-index: 1;
+}
+
+.card-main::before,
+.card-main::after {
+  width: 30px;
+  height: 30px;
+}
+
+.card-items::before,
+.card-items::after {
+  width: 22px;
+  height: 22px;
+}
+
+.card-main::before,
+.card-main::after {
+  top: 0;
+  border-top-color: var(--gold-color);
+}
+.card-main::before {
+  left: 0;
+  border-left-color: var(--gold-color);
+}
+.card-main::after {
+  right: 0;
+  border-right-color: var(--gold-color);
+}
+
+.card-items::before,
+.card-items::after {
+  top: 5px;
+  border-top-color: var(--brown-color);
+}
+.card-items::before {
+  left: 5px;
+  border-left-color: var(--brown-color);
+}
+.card-items::after {
+  right: 5px;
+  border-right-color: var(--brown-color);
+}
+
+@media (min-width:992px) {
+    .card-items {
+        max-height: 366px;
+      }
+}
+
+:root {
+  --brown-color: #782e2d;
+  --gold-color: #c7ad76;
+}

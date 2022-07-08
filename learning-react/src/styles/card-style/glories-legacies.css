@@ -1,0 +1,167 @@
+@import '../cssVariables.css';
+
+.frame-parent {
+    position: relative;
+}
+
+.frame-bdrTL,
+.frame-bdrTL::before,
+.frame-bdrTR,
+.frame-bdrTR::before,
+.frame-bdrBR,
+.frame-bdrBR::before,
+.frame-bdrBL, 
+.frame-bdrBL::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 36px;    
+}
+
+.frame-bdrTL::before,
+.frame-bdrTR::before,
+.frame-bdrBR::before,
+.frame-bdrBL::before  {
+    width: 26px;
+    height: 32px;
+}
+
+
+.frame-bdrTL,
+.frame-bdrTL::before,
+.frame-bdrTR, 
+.frame-bdrTR::before {
+    border-top: var(--gold-color) solid 4px; 
+    top:0;
+}
+
+    .frame-bdrTL::before, 
+    .frame-bdrTR::before {
+        /* top: 0px; */
+        border-top-color: var(--brown-color);
+    }
+
+.frame-bdrTL,
+.frame-bdrTL::before,
+.frame-bdrBL,
+.frame-bdrBL::before {
+    border-left: var(--gold-color) solid 4px;
+    left:0
+}
+
+    .frame-bdrTL::before,
+    .frame-bdrBL::before {
+        /* left: 0px; */
+        border-left-color: var(--brown-color);
+    }
+
+.frame-bdrTR,
+.frame-bdrTR::before,
+.frame-bdrBR,
+.frame-bdrBR::before {
+    border-right: var(--gold-color) solid 4px;
+    right:0;
+}
+
+    .frame-bdrTR::before,
+    .frame-bdrBR::before {
+        border-right-color: var(--brown-color);
+        /* right: 2px; */
+    }
+
+.frame-bdrBR,
+.frame-bdrBR::before,
+.frame-bdrBL,
+.frame-bdrBL::before {
+    border-bottom: var(--gold-color) solid 4px;
+    bottom:0;
+}
+
+    .frame-bdrBR::before,
+    .frame-bdrBL::before {
+        /* bottom: 2px; */
+        border-bottom-color: var(--brown-color);
+    }
+
+
+@media (min-width: 992px) {
+    .frame-bdrTL,
+    .frame-bdrTR,
+    .frame-bdrBR,
+    .frame-bdrBL {  
+        width: 90px;
+        height: 98px;    
+    }
+
+    .frame-bdrTL::before,
+    .frame-bdrTR::before,
+    .frame-bdrBR::before,
+    .frame-bdrBL::before  {
+        width: 80px;
+        height: 88px;
+    }
+    .frame-bdrTL::before, 
+    .frame-bdrTR::before {
+        top: 6px;
+    }
+
+    .frame-bdrTL::before,
+    .frame-bdrBL::before {
+        left: 6px;
+    }
+
+    .frame-bdrTR::before,
+    .frame-bdrBR::before {
+        right: 6px;
+    }
+
+    .frame-bdrBR::before,
+    .frame-bdrBL::before {
+        bottom: 6px;
+    }
+
+    .frame-bdrBR,
+    .frame-bdrBL {
+        bottom: -30px;
+    }
+
+    .frame-parent::before,
+    .frame-parent::after,
+    .frameMain-div::before,
+    .frameMain-div::after { 
+        content: "";
+        position: absolute;
+        background-color: var(--light-grey);
+        
+    } 
+    .frame-parent::before,
+    .frame-parent::after {
+        width: 86.2%;
+        height: 6px;
+        left: 90px;
+    }
+    .frame-parent::before {
+        top: 5px;
+    }
+    .frame-parent::after {
+        bottom: -26px;
+    }
+    .frameMain-div::before,
+    .frameMain-div::after {
+        width: 6px;
+        height: 78.2%;
+        top:96px;       
+     }
+     .frameMain-div::before {
+        left:5px;
+     }
+    .frameMain-div::after {
+        right:6px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px) and (orientation: landscape)  {
+
+    
+}
