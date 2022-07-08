@@ -1,0 +1,28 @@
+.text-brown {color:var(--brown-color);}
+.text-gold {color:var(--gold-color);}
+.text-goldyellow {color:var(--dark-brown);}
+
+:root {
+    --brown-color: #782e2d;
+    --gold-color: #C7AD76;
+    --text-gold: #FFD549;
+    --white:#ffffff;   
+    --black:#000000;   
+    --dark-grey:#979797;   
+    --medium-grey:#D9D9D9;
+    --light-grey:#F1F1F2;
+    --lighter-grey:#FAFAFA;
+    --dark-brown: #330000;
+    --text-grey: #141617;
+    --linkShadowColor: #141617;
+    --bg-blck: #192223;
+    --bg-gold: #B0A16E;
+    --dark-textGrey: #636363;
+
+    /* fontfamily-variable */
+    --font-josefinSans: 'Josefin Sans', sans-serif;
+    --font-josefinSlab: 'Josefin Slab', serif;
+    --font-NotoSans: 'Noto Sans', sans-serif;
+    --font-Roboto: 'Roboto', sans-serif;
+    --font-Vollkorn: 'Vollkorn', serif;
+}
